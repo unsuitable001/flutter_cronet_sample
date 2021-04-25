@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
       _fetching = true;
     });
     client
-      .getUrl(Uri.parse('https://example.com/'))
+      .getUrl(Uri.parse('http://info.cern.ch/'))
       .then((HttpClientRequest request) {
       _stopwatch.start();
       
